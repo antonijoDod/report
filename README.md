@@ -2,7 +2,7 @@
 
 This is challenge given by one company
 
-## How run
+## How to run
 
 Copy repo and navigate to the project directory
 
@@ -12,7 +12,7 @@ Copy repo and navigate to the project directory
 
 ### Links
 
-- Live Site URL: [https://landy-antonijo.netlify.app/](https://landy-antonijo.netlify.app/)
+- Live Site URL: [https://report-antonijo.netlify.app](https://report-antonijo.netlify.app)
 
 ## My process
 
