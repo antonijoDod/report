@@ -1,0 +1,75 @@
+/* **********************
+Styles for form component
+**************************/
+
+.form {
+    display: grid;
+    gap: 2rem;
+    border-radius: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: white;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .form {
+        grid-template-columns: repeat(2, 1fr);
+        width: 768px;
+    }
+}
+
+.form__label {
+    display: block;
+    margin-bottom: .5rem;
+    color: #444444;
+}
+
+.form__field {
+    display: block;
+    padding: .8rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form__field:focus {
+    outline: 2px solid #4b8ab1;
+}
+
+.form__field:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #095484;
+    color: #095484;
+}
+
+.form__error {
+    color: red;
+    display: block;
+    padding: .5rem 0;
+}
+
+.form__button {
+    display: block;
+    padding: 1rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1d68ca;
+    color: white;
+}
+
+.form__button:hover {
+    background-color: #367bd6;
+}
+
+.form__divider {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .form__divider {
+        grid-column: 1 / span 2;
+    }
+}
